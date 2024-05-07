@@ -1,0 +1,43 @@
+.nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+      border-top: #FFFFFF;
+      border-right: #FFFFFF;
+      border-left: #FFFFFF;
+      color: #2045be;
+
+      border-bottom: 3px solid #2045be;
+    }
+
+input{
+    border: none;
+    width: 100%;
+    margin: 0%;
+}
+
+.radio-input {
+  display: none; /* Hide the radio button itself */
+}
+
+.radio-label{
+  margin: 0% 0.2%;
+}
+
+.check-icon{
+  display: none;
+}
+
+.radio-input:checked + .radio-label {
+  background-color: green; /* Background color when checked */
+  color: white; /* Text color */
+  border-color: rgb(3, 255, 100); /* Border color */
+}
+
+/* Add icon to the label when the radio button is checked */
+.radio-input:checked + .radio-label i {
+  display: inline-block; /* Make the icon visible */
+}
+
+.radio-label i {
+  display: none; /* Hide the icon by default */
+  margin-left: 5px; /* Space between text and icon */
+}
